@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+echo "Checking files..."
+bun run check || exit 1
+
+echo "✅ Pre-commit checks passed!"
