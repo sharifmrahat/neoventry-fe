@@ -11,7 +11,6 @@
 <div>
 	<button onclick={() => setLocale('en')}>en</button>
 	<button onclick={() => setLocale('bn')}>bn</button>
-	s.d{{ Dddd }}
 </div>
 <p>
 	If you use VSCode, install the <a
