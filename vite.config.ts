@@ -12,7 +12,5 @@ export default defineConfig({
 			outdir: './src/lib/paraglide'
 		})
 	],
-	server: {
-		port: 3000
-	}
+	server: { port: 3000 }
 });
