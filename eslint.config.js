@@ -17,7 +17,7 @@ export default ts.config(
 	prettier,
 	...svelte.configs.prettier,
 	{
-		exclude: ['**/*.d.ts', '**/*.test.js', '**/*.test.ts', 'src/lib/'], //all js files
+		exclude: ['**/*.d.ts', '**/*.test.js', '**/*.test.ts', 'src/lib/paraglide/*.js'], //all js files
 		languageOptions: {
 			globals: { ...globals.browser, ...globals.node }
 		},
